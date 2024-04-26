@@ -1,0 +1,91 @@
+body{
+  background-image: conic-gradient(from 36deg at 20% 80%,#A100FFFF,#119CFDFF);
+  justify-content: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  height: 100vh;
+}
+
+.div1{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.input-text {
+  display: flex;
+  flex:1;
+  margin: 0;
+  border: none;
+  border-radius: 25px;
+  padding: 12px;
+  height: 20px;
+}
+
+.list ul li button {
+  position: absolute;
+  right: 0%;
+  background: #FF0000;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 0.4rem;
+  display: inline-block;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  margin-top:0;
+  
+}
+
+.add-btn {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: blue;
+  margin-left: 20px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 25px;
+  border-radius: 25px;
+  display: inline-block;
+  border: none;
+}
+
+.app-title {
+  text-align: center;
+ 
+  font-size: 70px;
+  background: linear-gradient(to top, red, yellow);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+}
+ul {
+  /* remove default padding and margin from ul*/
+  margin: 15px;
+  padding: 0px;
+}
+.list ul li {
+  align-content: center;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  line-height: 30px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #cccccc;
+  padding: 10px;
+  position: relative;
+  padding-top: 5px;
+}
+
+.container {
+  color: #fff;
+  max-width: 500px;
+  margin: auto;
+}
